@@ -42,14 +42,14 @@
                     <td><select name = "title" >
                         <Option selected = "selected">Selected Title</Option>
                         <option value = "Mr.">Mr.</option>
-                        <option value = "Mrs.">Mrs.</option>
+                        <option value = "Mrs.">Ms.</option>
                         <option value="Dr.">Dr.</option>
                         <option value="prof.">Prof.</option>
                     </select></td>
                 </tr>
                 <tr>
                     <td>Name</td>
-                    <td><input type="text" name"name"></td>
+                    <td><input type="text" name ="name"></td>
                 </tr>
                 <tr>
                     <td>Gender</td>

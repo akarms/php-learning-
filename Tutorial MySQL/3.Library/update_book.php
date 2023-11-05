@@ -25,10 +25,9 @@ if(isset($_POST['btnupdate'])){
     echo    "<td><input type = 'submit' value = 'UPDATE'></td>";
     echo "</tr>";
     echo    "</form>";
+    echo   "<table>";
 
-
-
-
+ 
 }
 
 

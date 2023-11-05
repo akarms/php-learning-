@@ -13,7 +13,7 @@ $result = mysqli_query($conn , $sql1);
 if(!$result){
     die("query Fialed" . mysqli_error($conn));
 }else{
-    echo "<br>Datas updated Successfully";
+    echo "<br>Databas updated Successfully";
 }
 
 

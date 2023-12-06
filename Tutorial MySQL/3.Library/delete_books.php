@@ -4,7 +4,7 @@ include("conn.php");
 mysqli_select_db($conn , "LIBRARY");
 
 if(isset($_POST['btndelete'])){
-    $sql = "DELETE FROM BOOKS WHERE BOOK_ID = '". $id . "'";
+    $sql = "DELETE FROM BOOKS WHERE BOOK_ID =  $id  ";
     $result = mysqli_query($conn , $sql);
 
  if(!$result){
